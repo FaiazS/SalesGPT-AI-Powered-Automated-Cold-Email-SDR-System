@@ -92,3 +92,22 @@ graph TD;
     E --> G[HTML Formatter Tool]
     E --> H[Send via SendGrid]
 ```
+---
+
+## 🧪 How to Run
+
+1. **Install dependencies**:
+   ```bash
+   pip install openai-agents groq sendgrid openai
+   ```
+
+2. **Set your API Keys**:
+   ```python
+   os.environ['GROQ_API_KEY'] = "your_key"
+   os.environ['SENDGRID_API_KEY'] = "your_key"
+   os.environ['OPENAI_API_KEY'] = "your_key"
+   ```
+
+3. **Run the notebook** in [Google Colab](https://colab.research.google.com) (recommended).
+
+---
