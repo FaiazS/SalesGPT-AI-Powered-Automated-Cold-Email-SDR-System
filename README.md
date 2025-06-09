@@ -60,4 +60,17 @@ SalesGPT will:
 
 - Detects personal names and prevents unsafe usage.
 
+---
+
+## 🔧 Technologies Used
+
+| Tool/Library     | Purpose                                           |
+|------------------|---------------------------------------------------|
+| `openai-agents`  | To define and run AI agent workflows              |
+| `groq`           | Fast inference using Groq-hosted GPT-4o           |
+| `sendgrid`       | Real-world email delivery via SendGrid API       |
+| `pydantic`       | Output validation and structured data handling    |
+| `asyncio`        | For concurrent agent execution                    |
+| `Colab`          | Fast prototyping and testing                      |
+
 
