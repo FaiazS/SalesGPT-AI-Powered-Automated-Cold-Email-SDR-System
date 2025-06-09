@@ -121,3 +121,11 @@ graph TD;
 - **Simulates real-world enterprise workflows with AI**
   
 - **Asynchronous orchestration and structured agent logic**
+  
+---
+
+## 📬 Author
+
+> Built by [Faiaz Ahmed](https://github.com/FaiazS) —  AI enthusiast. ✨
+
+> For questions or feedback, feel free to reach out or create an issue.
