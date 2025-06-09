@@ -111,3 +111,13 @@ graph TD;
 3. **Run the notebook** in [Google Colab](https://colab.research.google.com) (recommended).
 
 ---
+
+## 🎯 Project Highlights
+
+- **Agent-based architectures**
+  
+- **Real API Integration (SendGrid, OpenAI, Groq)**
+  
+- **Simulates real-world enterprise workflows with AI**
+  
+- **Asynchronous orchestration and structured agent logic**
