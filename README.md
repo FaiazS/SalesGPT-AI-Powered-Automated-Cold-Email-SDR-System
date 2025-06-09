@@ -73,4 +73,22 @@ SalesGPT will:
 | `asyncio`        | For concurrent agent execution                    |
 | `Colab`          | Fast prototyping and testing                      |
 
+---
+## 📈 Architecture
 
+This project follows a modular agent toolchain approach:
+
+```mermaid
+graph TD;
+    A[Input Prompt] --> B[Sales Manager Agent];
+    B --> C1[Professional Agent]
+    B --> C2[Humorous Agent]
+    B --> C3[Busy Agent]
+    C1 --> D[Best Email Selected]
+    C2 --> D
+    C3 --> D
+    D --> E[Email Manager Agent]
+    E --> F[Subject Writer Tool]
+    E --> G[HTML Formatter Tool]
+    E --> H[Send via SendGrid]
+```
