@@ -28,4 +28,36 @@ SalesGPT will:
 
 ---
 
+## 🧠 Agents & Tools
+
+### 🤹 Sales Agent Personas
+
+| Agent Type     | Behavior                                                   |
+|----------------|------------------------------------------------------------|
+| Professional   | Writes formal, polished, high-quality sales emails         |
+| Humorous       | Uses wit and personality to catch the reader’s attention   |
+| Busy           | Sends short and direct emails optimized for quick skimming|
+
+### 🧠 Sales Manager Agent
+
+- Delegates to all 3 agents.
+  
+- Compares results.
+  
+- Picks the best-performing email.
+  
+- Hands it off for formatting and sending.
+
+### 📤 Email Manager Agent
+
+- Generates a compelling subject line.
+  
+- Converts plain text to HTML.
+  
+- Sends the email via **SendGrid**.
+
+### 🛡️ Guardrail Agent
+
+- Detects personal names and prevents unsafe usage.
+
 
